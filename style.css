@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+}
+
+/* Navbar Section */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background-color: lightgray;
+}
+.nav-image {
+    height: 150px;
+    width: 150px;
+}
+.nav-links {
+    padding: 10px;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.links > li {
+    list-style-type: none;
+    padding: 15px;
+    margin: 10px;
+}
+.links > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
+}
+.links > li > a:hover {
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 900;
+    background-color: rgb(55, 74, 74);
+    color: white;
+}
+
+/* Main Content Section */
+.main-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 65vh;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px gray;
+}
+.input-boxes {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.childInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.main-input {
+    height: 50px;
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+
+}
+.analyseBtn {
+    height: 50px;
+    width: 150px;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 900;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.analyseBtn:hover {
+    color: white;
+    background-color: rgb(66, 15, 15);
+}
+
+/* Footer Section */
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+}
+.footer-content  span {
+    color: red;
+}
+.link-container  > a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+}
+.icon {
+    font-size: 2.5rem;
+    transition: all 0.3s ease-in-out;
+}
+.icon:hover {
+    transform: scale(1.2);
+}
