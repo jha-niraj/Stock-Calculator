@@ -89,7 +89,6 @@ body {
     text-align: center;
     font-size: 1.1rem;
     font-weight: 500;
-
 }
 .analyseBtn {
     height: 50px;
@@ -105,6 +104,12 @@ body {
 .analyseBtn:hover {
     color: white;
     background-color: rgb(66, 15, 15);
+}
+#showcase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Footer Section */
