@@ -20,13 +20,13 @@ function calculateStocks() {
         description.innerText = "";
         message.innerText = "";
     } else if(purchasePrice == currentPrice) {
-        title.innerHTML = "Bhai tera nasib hi kharab hai!!!";
+        title.innerHTML = "Ohh, No Profit no Loss!!!";
         description.innerText = "";
         message.innerText = "";
     } else if(purchasePrice * stocks > currentPrice * stocks) {
         let loss = Math.abs(purchasePrice * stocks - currentPrice * stocks);
         let lossPercent = loss / (purchasePrice * stocks) * 100;
-        title.innerHTML = "Bhai, tera katgaya!!!";
+        title.innerHTML = "You are in Loss!!!";
         description.innerText = `Total Loss: ${loss} Loss Percentage: ${lossPercent}%`;
         message.innerText = "Koi na bhai, lage raho!!!";
     } else if(purchasePrice * stocks < currentPrice * stocks) {
